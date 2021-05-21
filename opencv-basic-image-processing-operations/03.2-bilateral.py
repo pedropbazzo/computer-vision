@@ -17,7 +17,7 @@ args = vars(ap.parse_args())
 # bilateral filtering parameters that we are going to explore
 image = cv2.imread(args["image"])
 cv2.imshow("Original", image)
-params = [(11, 21, 7), (11, 41, 21), (11, 61, 39)]
+params = [(11, 21, 7), (11, 41, 21), (11, 61, 39)] 
 
 
 # Bilateral blurring ( cv2.bilateralFilter )
